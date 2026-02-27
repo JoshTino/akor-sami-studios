@@ -1,10 +1,10 @@
 import { motion } from "framer-motion";
 
-export default function Testimonials() {
+export default function Testimonials( {brandname} ) {
   const testimonials = [
     {
       name: "Obekpa Ene Becky",
-      text: "Akorsami Studios captured our wedding beautifully. Pure excellence.",
+      text: `${brandname} captured our wedding beautifully. Pure excellence.`,
     },
     {
       name: "Mr Sheddy",

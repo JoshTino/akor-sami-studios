@@ -1,6 +1,7 @@
 import { Facebook, Instagram, MessageCircle } from "lucide-react";
 
-export default function Contact() {
+export default function Contact( props) {
+  const {brandname} = props;
   return (
     <section id="contact" className="py-24 px-6 text-center">
       <h3 className="text-3xl font-semibold mb-6">Contact Us</h3>
@@ -20,7 +21,7 @@ export default function Contact() {
         </a>
       </div>
 
-      {/* ✅ CONTACT FORM ADDED (Nothing else changed above) */}
+      {/* CONTACT FORM ADDED (Nothing else changed above) */}
       <div className="max-w-2xl mx-auto mb-16">
         <form className="space-y-6 text-left">
           <div>
@@ -60,7 +61,7 @@ export default function Contact() {
       </div>
 
       <p className="text-gray-500 text-sm">
-        © {new Date().getFullYear()} Akorsami Studios. Made with ❤️ by
+        © {new Date().getFullYear()} {brandname} {/*Studios*/}. Made with ❤️ by
         Dangana Joshua.
       </p>
     </section>

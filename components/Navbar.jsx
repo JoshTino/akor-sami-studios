@@ -2,7 +2,7 @@ import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { Menu, X } from "lucide-react";
 
-export default function Navbar() {
+export default function Navbar({brandname}) {
   const [open, setOpen] = useState(false);
 
   return (
@@ -10,7 +10,7 @@ export default function Navbar() {
       <nav className="fixed w-full z-50 bg-black/70 backdrop-blur-lg border-b border-white/10">
         <div className="max-w-7xl mx-auto flex justify-between items-center px-6 py-4">
           <h1 className="text-xl font-semibold tracking-widest">
-            AKORSAMI<span className="text-gray-400">STUDIOS</span>
+            {brandname}{/*<span className="text-gray-400">STUDIOS</span>*/}
           </h1>
 
           <div className="hidden md:flex space-x-8 text-sm tracking-wide">

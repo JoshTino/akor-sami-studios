@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 
-export default function About() {
+export default function About( {brandname} ) {
   return (
     <section id="about" className="py-24 px-6 max-w-6xl mx-auto">
       <motion.div
@@ -10,7 +10,7 @@ export default function About() {
       >
         <h3 className="text-3xl font-semibold mb-6">About Us</h3>
         <p className="text-gray-400 leading-relaxed">
-          Akorsami Studios is a premium creative studio focused on delivering
+          {brandname} {/*Studios*/} is a premium creative studio focused on delivering
           timeless visuals. We combine artistic direction with modern
           storytelling to create unforgettable experiences.
         </p>

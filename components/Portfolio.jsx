@@ -8,33 +8,33 @@ export default function Portfolio() {
   const portfolioItems = [
     {
       id: 1,
-      src: "images/sami.jpg",
-      title: "Akor Samuel",
+      src: "https://plus.unsplash.com/premium_photo-1691801690578-f9cad8dafbdd?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      title: "Afro Lady",
     },
     {
       id: 2,
-      src: "images/wedding.jpg",
+      src: "https://images.unsplash.com/photo-1739526169655-0378b9aae5ab?q=80&w=1095&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       title: "Wedding Photo",
     },
     {
       id: 3,
-      src: "images/young-girl.jpg",
-      title: "Beautiful Girl",
+      src: "https://images.unsplash.com/photo-1589199051916-92cd36b97ffa?q=80&w=686&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      title: "Cultural Attire",
     },
     {
       id: 4,
-      src: "images/man.jpg",
-      title: "Happy Man",
+      src: "https://plus.unsplash.com/premium_photo-1769339044519-facdb4425b63?q=80&w=764&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      title: "Blue Head Wrap",
     },
     {
       id: 5,
-      src: "images/elegant.jpg",
-      title: "Elegant Lady",
+      src: "https://images.unsplash.com/photo-1765005343987-6bf51ae692c4?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      title: "Graduation",
     },
     {
       id: 6,
-      src: "images/duo.jpg",
-      title: "Ladies in green",
+      src: "https://images.unsplash.com/photo-1649967322800-5f215ed89863?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      title: "Melanin Lady",
     },
   ];
 
